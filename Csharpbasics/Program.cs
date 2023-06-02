@@ -1,13 +1,11 @@
 ﻿using System;
+using LearnCollectiion;
 
 class Program
 {
-    static void Main2()
+    static void Main()
     {
-       Console.Write("Enter your name:");
-      // string x = Console.ReadLine();
-      // Console.WriteLine("Hi," + x);
-
-
+      Collections collections = new Collections();
+      collections.LearnDictionary();
     }
 }

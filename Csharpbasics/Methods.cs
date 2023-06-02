@@ -55,7 +55,7 @@ public class MethodTeacher
 
 public class MethodLearner
 {
-    static void Main()
+    static void Main3()
     {
         MethodTeacher st = new MethodTeacher();
         int[] numbers ={1,2,3,4,5,6,7,8,9,23};
