@@ -1,0 +1,43 @@
+using System;
+
+namespace AllAboutClasses
+{
+    public class Country
+    {
+
+        public string Name { get; set; }
+        public int Population { get; set; }
+        public const double AREA = 4567.57;    //Compiled time constant
+        public readonly double AGE = 123213.332;  // Runtime Constant 
+
+         //  Default Constructor
+        public Country()
+        {
+
+        }
+
+        //Parameterized Constructor
+        public Country(string name)
+        {
+            Name = name;
+        }
+
+         public Country(string name, int population, double area)
+        {
+            Name = name;
+            Population = population;
+        }
+
+
+    }
+
+    public class Demo
+    {
+        public void DoSomething()
+        {
+            Country country1 = new Country();
+            Country country2 = new Country("Nepal");
+
+        }
+    }
+}
