@@ -10,6 +10,8 @@ namespace AllAboutClasses
         public const double AREA = 4567.57;    //Compiled time constant
         public readonly double AGE = 123213.332;  // Runtime Constant 
 
+        public static readonly bool IsOnEarth;  //static member
+         // Instance Constructor
          //  Default Constructor
         public Country()
         {
@@ -27,7 +29,13 @@ namespace AllAboutClasses
             Name = name;
             Population = population;
         }
+        
+        // Static Constructor
 
+        static Country()
+        {
+            IsOnEarth = true;
+        }
 
     }
 
@@ -36,6 +44,7 @@ namespace AllAboutClasses
         public void DoSomething()
         {
             Country country1 = new Country();
+            var x = Country.IsOnEarth;
             Country country2 = new Country("Nepal");
 
         }
