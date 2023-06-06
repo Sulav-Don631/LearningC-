@@ -48,3 +48,32 @@ public class Circle : Shape
     public override double GetCircumference() => 2 * Math.PI * Radius;
 
 }
+
+// Multilevel or Hirarchical Inheritance
+class A
+{
+
+}
+
+class B : A
+{
+
+}
+
+class D : B
+{
+
+}
+
+// Multiple Inheritance
+
+class E : IA, IB
+{
+
+}
+
+interface IA
+{}
+
+interface IB
+{}
