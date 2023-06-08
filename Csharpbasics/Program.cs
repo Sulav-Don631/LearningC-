@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-     FileIO fileio = new FileIO();
-     fileio.LearnDirectory();
+        Assignment assignmet = new Assignment();
+        assignmet.CreatingFile();
     }
 }
