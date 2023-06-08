@@ -6,6 +6,6 @@ class Program
     static void Main()
     {
      FileIO fileio = new FileIO();
-     fileio.LearnFileHandling();
+     fileio.LearnDirectory();
     }
 }
