@@ -42,7 +42,7 @@ public class FileIO
 
         Console.WriteLine("Do you want to dele the folder just created?");
         var ask = 'y';
-        var ask2 = 'n';
+        
 
         var t = Console.Read();
 
